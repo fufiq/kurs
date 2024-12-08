@@ -569,8 +569,22 @@ header a {
 
 }
 
+a:hover{
+  color: darkviolet;
+}
+.login:hover, .cart:hover {
+  color: darkviolet;
+  cursor: pointer;
+}
 
-
+button:hover{
+  color: darkviolet !important;
+  cursor: pointer;
+  border-color: darkviolet !important;
+}
+.slide{
+  float: left;
+}
 
 .seven{
   z-index: 1;
